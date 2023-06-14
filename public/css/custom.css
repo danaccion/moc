@@ -1,0 +1,96 @@
+/*footer*/
+footer p{
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+footer{
+    color:grey;
+} 
+.footer-menu, .login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-btn {
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}
+
+/*DASHBOARD*/
+.linked-in img{
+    border: 2px solid orange;
+}
+
+/*TILMILDING*/
+.linkedIn-autofill a:last-child{
+    color: rgb(187, 129, 23);
+    font-weight: 400;
+    text-decoration-color: orange;
+    text-decoration: underline;
+}  
+.linkedIn-autofill a:first-child{
+    color: #0A66C2;
+    border-radius: 20px;
+    font-size: 50px!important;
+}  
+.info-link i{
+    color: grey; 
+    font-size: 40px; 
+}
+.tilmelding-send button{
+    border:1px solid orange;
+    color: grey;
+    font-weight: 600;
+    padding: 0.7rem 2rem;
+}
+.tilmelding-send i{
+    color: orange;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+.tilmelding-land-dropdown {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.col-4.info-link {
+    display: flex;
+    align-items: center;
+}
+button.btn.dropdown-toggle.form-control.btn-lg.border.tilmelding-land-dropdown {
+    justify-content: space-between;
+    display: flex;
+}
+    /*multiple select*/
+.forms_of_meeting, .can_do_for_network{
+    width: 100%;
+}
+span.select2-selection.select2-selection--multiple {
+    border: 1px solid #dee2e6!important;
+    padding: 1.1rem !important;
+}
+span.select2-selection__choice__remove {
+    color: black!important;
+}
+li.select2-selection__choice {
+    background-color: white!important;
+}
+/*VIEW PROFIL*/
+.view-profile-container{
+    padding-right: 20%;
+    padding-left: 20%;
+
+}
+hr:not([size]) {
+    height: 0.5px;
+}
+
+.profile-pic {
+    height: 500px !important;
+    object-fit: cover;
+
+}
